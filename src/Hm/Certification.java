@@ -1,7 +1,8 @@
+package Hm;
+
 import java.util.*;
 
-
-public class Main {
+public class Certification {
     public static void main(String[] args) {
         Map<String, List<String>> phoneBook = new HashMap<>();
 
