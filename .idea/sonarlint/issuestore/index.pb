@@ -28,3 +28,30 @@ w
 G.idea/sonarlint/issuestore/6/a/6a773f466b4e1b57917d591994cad09670330122,2\f\2f9ac087cb123424627b68e045bfa7e5aced5613
 Å
 Q.idea/sonarlint/securityhotspotstore/9/a/9ae831fc0760cf92fedd3f65016451bfaa71095b,6\8\68a437e05a347aa957c454f1872c3fff8f3c8f97
+G
+src/clients/Animal.java,7\f\7f0a6950e22002bea1668ed98216d7f0ef1f4a21
+D
+src/clients/Cat.java,c\d\cde43dc6bc866140598c7c6bc402cb13e20ef8b7
+D
+src/clients/Dog.java,a\5\a5f4458fc8672a580bf545d007043255d506e946
+H
+src/clients/Illness.java,4\f\4fed3c82eabaa4ffa7ccfdd15ef64eb83ed3527a
+F
+src/clients/Owner.java,7\4\74edfd6eb110e07ba54418f04af53ff7e3e16226
+H
+src/clients/Sparrow.java,b\7\b7c35373205d734f469a72a052518ea2b8d6ab56
+@
+src/Hm/Main.java,4\9\49bd04be47addc7513a3c911ab9c81fad4a5c0e1
+9
+	Main.java,6\9\69cdb079609ed3ce1e356d44cff508330a5787c4
+=
+src/Main.java,9\2\924f089edb4af5ee45c8a9d1129cd28e2b368138
+:
+
+Readme.txt,c\b\cb04fce841463146fb48e8699901001422401f6e
+G
+src/clients/Pigeon.java,6\1\616c41efcc8386e54a1ff48ee248bee35d8e0a8f
+F
+src/clients/Eagle.java,8\7\877ff11be76d66f0d7afa264da1afabceb227a10
+9
+	Readme.md,0\c\0c1945d7443c2e154bd3e421c0d438bd4086d8c3
