@@ -64,3 +64,15 @@ D
 src/client/Pike.java,6\d\6d4bd6eb13d34c8aafa603ec280d602b42cfb5a5
 L
 src/Hm/VeterinaryClinic.java,6\9\6987b7d75500d23ccbac9e4dec349e47d2efaa40
+L
+src/medicines/Component.java,9\8\9808a4ab45c31e5c5107c7795a07c92c24be15db
+K
+src/medicines/Medicine.java,b\7\b73ad306c54b92770365bfb2308dca4535fc710f
+H
+src/medic/Component.java,d\c\dcfd9023a56c7bcb4e159f305cc3eff9f8943e62
+G
+src/medic/Medicine.java,3\0\30c67481a2d2dfa1c2efd8a22adfe73bda2408f5
+K
+src/medicine/Component.java,4\e\4ea7e1e58449e95eed01cc505749fd9bb0b7dbb5
+J
+src/medicine/Medicine.java,d\2\d2637d11abaf8a077c2ba3eacade2e18a0e9260a

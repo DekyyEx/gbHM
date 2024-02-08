@@ -1,8 +1,14 @@
 package Hm;
 
 import client.*;
+import medicines.Component;
+import medicines.Medicine;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -48,19 +54,42 @@ public class Main {
 
         System.out.println();
         System.out.println(pike);
-        dropfish.fly(0);
-        dropfish.toGo(0);
-        dropfish.swim(100);
+        pike.fly(0);
+        pike.toGo(0);
+        pike.swim(100);
 
         Animal kitoglav = new Kitoglav("«Мишаня»", new Owner("Екатерина Оплевулька"),
                 LocalDate.of(2024, 6, 5), new Illness("Сломал клюв"), 0);
 
         System.out.println();
         System.out.println(kitoglav);
-        dropfish.fly(100);
-        dropfish.toGo(50);
-        dropfish.swim(0);
+        kitoglav.fly(100);
+        kitoglav.toGo(50);
+        kitoglav.swim(0);
 
+
+        Medicine m1 = new Medicine();
+        Medicine m2 = new Medicine();
+        Medicine m3 = new Medicine();
+
+        m1.addComp(new Component("Solution", 72, 62));
+        m1.addComp(new Component("Decongestant spray", 78, 122));
+        m2.addComp(new Component("Eye drops", 90, 42));
+        m2.addComp(new Component("Capsule", 97, 10));
+        m3.addComp(new Component("Antiseptic", 99, 99));
+        m3.addComp(new Component("Aspirins", 91, 12));
+
+        System.out.println();
+        List<Medicine> medicines = new ArrayList<>();
+        medicines.add(m1);
+        medicines.add(m3);
+        medicines.add(m2);
+
+        System.out.println(medicines);
+
+        Collections.sort(medicines);
+
+        System.out.println(medicines);
     }
 }
 
