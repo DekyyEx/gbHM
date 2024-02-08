@@ -13,14 +13,12 @@ public class Main {
                 LocalDate.of(2020, 10, 5), new Illness("Царапина"), 0);
 
         System.out.println();
-        System.out.println("ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ฅ^•ﻌ•^ฅ ");
         System.out.println(cat);
         cat.toGo(10);
         cat.swim(5);
         cat.fly(100);
 
         System.out.println();
-        System.out.println("ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ฅ՞•ﻌ•՞ฅ ");
         System.out.println(dog);
         dog.toGo(10);
         dog.fly(100);
@@ -30,8 +28,7 @@ public class Main {
         Eagle Eagle = new Eagle("«Баунти»", new Owner("Игорь Васильевич"),
                 LocalDate.of(2021, 10, 4), new Illness("Сломал лапку"), 0);
 
-
-        System.out.println("꒰ঌ( •ө• )໒꒱ ꒰ঌ( •ө• )໒꒱ ꒰ঌ( •ө• )໒꒱ ꒰ঌ( •ө• )໒꒱ ꒰ঌ( •ө• )໒꒱ ꒰ঌ( •ө• )໒꒱ ꒰ঌ( •ө• )໒꒱ ꒰ঌ( •ө• )໒꒱ ꒰ঌ( •ө• )໒꒱꒰ঌ( •ө• )໒꒱꒰ঌ( •ө• )໒꒱ ꒰ঌ( •ө• )໒꒱");
+        System.out.println();
         System.out.println(Eagle);
         Eagle.fly(100);
         Eagle.toGo(50);
