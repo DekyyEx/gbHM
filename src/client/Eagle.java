@@ -1,6 +1,9 @@
-package clients;
+package client;
+import Action.Flyable;
+import Action.Goable;
+
 import java.time.LocalDate;
-public class Eagle extends Animal{
+public class Eagle extends Animal implements Flyable {
     public Eagle(String nickName, Owner owner, LocalDate birthDate, Illness illness, int movementStatistics) {
         super(nickName, owner, birthDate, illness, movementStatistics);
     }
@@ -27,5 +30,10 @@ public class Eagle extends Animal{
         System.out.print("Орёл по имени " + nickName + " не плавает! Статистика подвижности: ");
         int result = movementStatistics;
         System.out.println(result);
+    }
+
+    @Override
+    public double run() {
+        return 90;
     }
 }

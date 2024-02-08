@@ -1,15 +1,14 @@
-package clients;
+package client;
 
 import java.time.LocalDate;
 
 public class Animal {
     protected String nickName;
-    protected Owner owner;
-    protected LocalDate birthDate;
-    protected Illness illness;
+    private Owner owner;
+    private LocalDate birthDate;
+    private Illness illness;
 
     protected int movementStatistics;
-
 
 
     public Animal(String nickName, Owner owner, LocalDate birthDate, Illness illness, int movementStatistics) {
@@ -45,14 +44,14 @@ public class Animal {
     }
 
     public void lifeCycle() {
-        wakeUp("08:00");
+        wakeUp();
         hunt();
         eat();
         sleep();
     }
 
     private void wakeUp() {
-        wakeUp("08:00");
+        wakeUp();
     }
 
     private void wakeUp(String time) {

@@ -6,7 +6,7 @@
 
 
 1.Единственная проблема, которая у меня возникла, это то, что я в классе Illness я добавил "extends Animal" и из-за этого программа зациклилась и выводила ошибку:
-at clients.Illness.<init>(Illness.java:6)
-at clients.Animal.<init>(Animal.java:24)
+at client.Illness.<init>(Illness.java:6)
+at client.Animal.<init>(Animal.java:24)
 C проблемой долго мучался, но нашел и исправил.
 2.Добавил класс Eagle и с ним же добавил статистику подвожности животного(взял эту информацию из интернета).

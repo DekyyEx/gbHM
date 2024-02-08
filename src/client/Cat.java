@@ -1,6 +1,8 @@
-package clients;
+package client;
+import Action.Goable;
+
 import java.time.LocalDate;
-public class Cat extends Animal {
+public class Cat extends Animal implements Goable {
     Double discount;
 
     public Cat(String nickName, Owner owner, LocalDate birthDate, Illness illness, Double discount, int movementStatistics) {
@@ -46,5 +48,10 @@ public class Cat extends Animal {
         System.out.print("Котёнок по имени " + nickName + " не любит воду и убежал. Статистика подвижности: ");
         int result = movementStatistics;
         System.out.println(result);
+    }
+
+    @Override
+    public double run() {
+        return 75;
     }
 }
