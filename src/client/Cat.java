@@ -31,23 +31,19 @@ public class Cat extends Animal implements Goable {
     @Override
     public void toGo(int meters) {
         System.out.print("Котёнок по имени " + nickName + " прошёл " + meters + " метров. Статистика подвижности: ");
-        int result = movementStatistics = movementStatistics + meters;
-        System.out.println(result);
+        System.out.println(movementStatistics + meters);
     }
 
     @Override
     public void fly(int meters) {
         System.out.print("Котёнок по имени " + nickName + " не может летать! Статистика подвижности: ");
-        int result = movementStatistics;
-        System.out.println(result);
-
+        System.out.println(movementStatistics);
     }
 
     @Override
     public void swim(int meters){
         System.out.print("Котёнок по имени " + nickName + " не любит воду и убежал. Статистика подвижности: ");
-        int result = movementStatistics;
-        System.out.println(result);
+        System.out.println(movementStatistics);
     }
 
     @Override

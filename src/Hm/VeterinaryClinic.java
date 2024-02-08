@@ -25,31 +25,31 @@ public class VeterinaryClinic {
         patients.remove(patient);
     }
 
-    public List<Goable> getGoable() {
-        List<Goable> result = new ArrayList<>();
+    public List<Animal> getGoableList() {
+        List<Animal> result = new ArrayList<>();
         for (Animal animal : patients) {
             if (animal instanceof Goable) {
-                result.add((Goable) animal);
+                result.add(animal);
             }
         }
         return result;
     }
 
-    public List<Flyable> getFlyable() {
-        List<Flyable> result = new ArrayList<>();
+    public List<Animal> getFlyableList() {
+        List<Animal> result = new ArrayList<>();
         for (Animal animal : patients) {
             if (animal instanceof Flyable) {
-                result.add((Flyable) animal);
+                result.add(animal);
             }
         }
         return result;
     }
 
-    public List<Swimable> getSwimable() {
-        List<Swimable> result = new ArrayList<>();
+    public List<Animal> getSwimableList() {
+        List<Animal> result = new ArrayList<>();
         for (Animal animal : patients) {
             if (animal instanceof Swimable) {
-                result.add((Swimable) animal);
+                result.add(animal);
             }
         }
         return result;
@@ -69,21 +69,21 @@ public class VeterinaryClinic {
     public void removePersonal(Animal patient) {
         patients.remove(patient);
     }
-    public List<Curse> getCure() {
-        List<Curse> result = new ArrayList<>();
+    public List<Personal> getCureList() {
+        List<Personal> result = new ArrayList<>();
         for (Personal personal : personals) {
             if (personal instanceof Curse) {
-                result.add((Curse) personal);
+                result.add(personal);
             }
         }
         return result;
     }
 
-    public List<NonCures> getNonCure() {
-        List<NonCures> result = new ArrayList<>();
+    public List<Personal> getNonCureList() {
+        List<Personal> result = new ArrayList<>();
         for (Personal personal : personals) {
             if (personal instanceof NonCures) {
-                result.add((NonCures) personal);
+                result.add(personal);
             }
         }
         return result;

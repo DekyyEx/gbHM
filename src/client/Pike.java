@@ -34,23 +34,19 @@ public class Pike extends Animal implements Swimable{
         @Override
         public void toGo(int meters) {
             System.out.print("Рыба по имени " + nickName + " проплыла " + meters + " метров. Статистика подвижности: ");
-            int result = movementStatistics = movementStatistics + meters;
-            System.out.println(result);
+            System.out.println(movementStatistics + meters);
         }
 
         @Override
         public void fly(int meters) {
             System.out.print("Рыба по имени " + nickName + " не может летать! Статистика подвижности: ");
-            int result = movementStatistics;
-            System.out.println(result);
-
+            System.out.println(movementStatistics);
         }
 
         @Override
         public void swim(int meters){
             System.out.print("Рыба по имени " + nickName + " любит морскую воду. Статистика подвижности: ");
-            int result = movementStatistics;
-            System.out.println(result);
+            System.out.println(movementStatistics);
         }
 
         @Override

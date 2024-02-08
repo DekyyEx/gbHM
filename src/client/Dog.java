@@ -14,8 +14,7 @@ public class Dog extends Animal implements Goable {
     @Override
     public void fly(int meters) {
         System.out.print("Собака по имени " + nickName + " не может летать :((((. Статистика подвижности: ");
-        int result = movementStatistics;
-        System.out.println(result);
+        System.out.println(movementStatistics);
     }
 
     @Override
